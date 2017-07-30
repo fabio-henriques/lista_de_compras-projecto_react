@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.search__bar{
+  width: 300px;
+  height: 20px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  margin-top: 100px;
+}
+
+.categoria__list{
+  padding: 10px 20px 10px 20px;
+}
+
+.produtos{
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+.produtos__button{
+  border: 1px solid black;
+  background: #004466;
+  color: white;
+  padding: 30px;
+}
+
+.produtos__button:hover{
+  background: #005580;
+}
+
+.produtos__sector__active{
+  border: 1px solid black;
+  padding: 50px;
+  width:500px;
+  height:500px;
+  margin: 0 auto;
+}
+
+.products__list{
+  list-style: none;
+  line-height: 30px;
+}
+
+.categorias__list{
+  list-style: none;
+  font-size: 19px;
+}
+
+.list__close{
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: red;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
