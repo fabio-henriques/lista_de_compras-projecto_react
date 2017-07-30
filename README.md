@@ -1,1 +1,0 @@
-# lista_de_compras-projecto_react
